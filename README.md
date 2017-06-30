@@ -1,7 +1,14 @@
 # ebd-collision-detection
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An example to illustrate an issue in `ember-basic-dropdown`
+
+By default, if you don't specify `horizontalPosition`, collision detection kicks in and keeps the content
+of the dropdown inside the viewport:
+![Default position](default-horizontal-position.gif)
+
+Then if you specify a horizontalPosition, `horizontalPosition="right"` for example, collision detection
+doesn't kick in, and the content of one of the dropdowns doesn't fit in the viewport:
+![Specifying horizontalPosition](specifying-horizontal-position.gif)
 
 ## Prerequisites
 
